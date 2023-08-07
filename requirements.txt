@@ -1,0 +1,8 @@
+pytube
+Flask==2.3.2
+gunicorn==19.9.0
+
+
+
+git+https://github.com/openai/whisper.git
+
