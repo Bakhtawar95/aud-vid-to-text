@@ -11,10 +11,9 @@ app.secret_key = "hani"
 
 @app.route("/")
 def home():
-    session["text_in_audio"] = ""
-    session["text_in_video"] = ""
 
-    return render_template("stt.html")
+
+    return "good morning"
 
 
 
