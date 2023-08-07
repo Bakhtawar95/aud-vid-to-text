@@ -1,5 +1,10 @@
 pytube
 Flask==2.3.2
 gunicorn==19.9.0
-git+https://github.com/openai/whisper.git
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==2.0.1
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torchvision==0.15.2
+
+openai-whisper
 
